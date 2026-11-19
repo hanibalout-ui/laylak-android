@@ -1,0 +1,14 @@
+name: laylak_restaurant
+description: Laylak Restaurant Android prototype based on V6 web interface
+publish_to: none
+version: 0.6.0+6
+environment:
+  sdk: '>=3.5.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  webview_flutter: ^4.10.0
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/index.html
